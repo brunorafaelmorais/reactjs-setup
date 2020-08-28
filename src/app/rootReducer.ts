@@ -1,7 +1,7 @@
 import { combineReducers } from '@reduxjs/toolkit'
 import { useSelector, TypedUseSelectorHook } from 'react-redux'
 
-import auth from '../features/auth/authSlice'
+import auth from '../modules/auth/authSlice'
 
 const rootReducer = combineReducers({ auth })
 
