@@ -1,14 +1,14 @@
 import React from 'react'
 import { Route, Switch, useRouteMatch } from 'react-router-dom'
 
-import ChartAnalyticsPage from '../chartAnalytics/ChartAnalyticsPage'
+import ChartsPage from '../charts/ChartsPage'
 
 const AuthRoutes: React.FC = () => {
   const { path } = useRouteMatch()
 
   return (
     <Switch>
-      <Route path={path} component={ChartAnalyticsPage} exact />
+      <Route path={path} component={ChartsPage} exact />
     </Switch>
   )
 }
