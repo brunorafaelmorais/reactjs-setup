@@ -4,7 +4,7 @@ import { SWRConfig } from 'swr'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
 import store from './store'
-import GlobalStyle from '../styles/global'
+import GlobalStyle from './styles/global'
 import swrConfig from './config/swr'
 
 const App: React.FC = () => {
@@ -13,7 +13,7 @@ const App: React.FC = () => {
       <CssBaseline />
       <GlobalStyle />
       <SWRConfig value={swrConfig}>
-        <div>Hello World</div>
+        <div />
       </SWRConfig>
     </Provider>
   )
