@@ -13,7 +13,7 @@ const App: React.FC = () => {
       <CssBaseline />
       <GlobalStyle />
       <SWRConfig value={swrConfig}>
-        <div />
+        <div>Hello World</div>
       </SWRConfig>
     </Provider>
   )
