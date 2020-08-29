@@ -1,9 +1,9 @@
 import { combineReducers } from '@reduxjs/toolkit'
 import { useSelector, TypedUseSelectorHook } from 'react-redux'
 
-import auth from '../modules/auth/authSlice'
+import user from '../features/auth/user/userSlice'
 
-const rootReducer = combineReducers({ auth })
+const rootReducer = combineReducers({ user })
 
 export type RootState = ReturnType<typeof rootReducer>
 
